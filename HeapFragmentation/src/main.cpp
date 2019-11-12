@@ -7,7 +7,10 @@
 // The program prints the value of the heap fragmentation.
 // You can use the Serial Plotter to see the curve.
 
+#include "Arduino.h"
 #include "MemoryInfo.h"
+
+String generateRandomString();
 
 // Try to change these values and observe the evolution of the fragmentation.
 // As you'll see, fragmentation disappears if SMALLEST_STRING == LARGEST_STRING,
